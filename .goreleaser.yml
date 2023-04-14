@@ -1,0 +1,14 @@
+builds:
+    - binary: goproxy
+      main: examples/goproxy-basic/main.go
+      goos:
+        - linux
+        - windows
+        - darwin
+      goarch:
+        - amd64
+      id: goproxy
+
+checksum:
+  algorithm: sha256
+  
