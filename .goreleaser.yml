@@ -1,3 +1,7 @@
+before:
+  hooks:
+    - go mod tidy
+
 builds:
     - binary: goproxy
       main: examples/goproxy-basic/main.go
